@@ -5,8 +5,13 @@ public class TipeDateBukanPrimitif {
         Long iniLong = 10L;
         Boolean iniBool = true;
 
-        Short iniShort; // null
+        Short iniShort = null; // null
+
+        System.out.println(iniShort);
+
         iniShort = 100;
+
+        System.out.println(iniShort);
 
         // konversi dari tipe primitif
         int age = 18;
