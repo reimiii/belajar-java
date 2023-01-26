@@ -4,6 +4,7 @@ public class Variable {
         name = "Hilmi Akbar Muharrom";
 
         int age = 18;
+        Integer makemn;
 
         String address;
         address = "Indonesia";
