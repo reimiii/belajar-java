@@ -45,6 +45,7 @@ public class TipeDataArray {
         System.out.println(members[1][1]);
         System.out.println(members[2][0]);
 
+        // todo watch the  video
     }
 }
 
