@@ -19,12 +19,12 @@ public class OperatorPerbandingan {
         int valOne = 100;
         int valTwo = 100;
 
-        System.out.println(valOne > valTwo);
-        System.out.println(valOne < valTwo);
-        System.out.println(valOne >= valTwo);
-        System.out.println(valOne <= valTwo);
-        System.out.println(valOne == valTwo);
-        System.out.println(valOne != valTwo);
+        System.out.println(valOne > valTwo); // false
+        System.out.println(valOne < valTwo); // false
+        System.out.println(valOne >= valTwo); // true
+        System.out.println(valOne <= valTwo); // true
+        System.out.println(valOne == valTwo); // true
+        System.out.println(valOne != valTwo); // false
 
 
 
