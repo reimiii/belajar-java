@@ -8,7 +8,7 @@ public class ExpressionStatementAndBlock {
      *
      * adalah core component dari statment
      * */
-    public static void main(String[] args) {
+    public static void main(String[] args) { // awal block
 
         int value; // Expresi
         value = 10; // Expresi
@@ -41,11 +41,11 @@ public class ExpressionStatementAndBlock {
         System.out.println(date);
 
         /*
-        * Block
-        * block adalah kumpulan statement yang terdiri dari nol atau lebih statment
-        * block diawali dan di akhiri dengan kurung kurawal {}
-        *
-        * */
+         * Block
+         * block adalah kumpulan statement yang terdiri dari nol atau lebih statment
+         * block diawali dan di akhiri dengan kurung kurawal {}
+         *
+         * */
 
-    }
+    } // akhir block
 }
