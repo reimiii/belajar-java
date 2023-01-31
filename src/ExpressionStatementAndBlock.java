@@ -31,13 +31,21 @@ public class ExpressionStatementAndBlock {
         double avalue = 9998.122;
 
         // increment statement
-        avalue++;
+        System.out.println(avalue += 1);
 
         // method invocation statement
         System.out.println("Hello World!");
 
         // object creation statement
         Date date = new Date();
+        System.out.println(date);
+
+        /*
+        * Block
+        * block adalah kumpulan statement yang terdiri dari nol atau lebih statment
+        * block diawali dan di akhiri dengan kurung kurawal {}
+        *
+        * */
 
     }
 }
