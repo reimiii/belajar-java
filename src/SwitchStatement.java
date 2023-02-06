@@ -18,9 +18,9 @@ public class SwitchStatement {
         }
 
         /*
-        * Switch Lambda Di Java 14++
-        *
-        * */
+         * Switch Lambda Di Java 14++
+         *
+         * */
 
         switch (nilai) {
             case "A" -> System.out.println("Anda Lulus dengan Baik");
@@ -31,5 +31,34 @@ public class SwitchStatement {
             }
         }
 
+        /*
+         * Kata kunci yield
+         * Di Java 14 untuk mengembalikan nilai switch statement
+         * */
+
+        // tampa yield
+        String ucapan;
+
+        switch (nilai) {
+            case "A" -> ucapan = "Lulus Dengan Sangat Baik";
+            case "B", "C" -> ucapan = "Lulus";
+            case "D" -> ucapan = "Tidak Lulus";
+            default -> ucapan = "Lu salah jurusan";
+        }
+        System.out.println(ucapan);
+
+        // dengan yield
+
+        String hasil = switch (nilai) {
+            case "A":
+                yield "Lulus dengan Baik";
+            case "B", "C":
+                yield "Lulus";
+            case "D":
+                yield "Anda Tidak Lulus";
+            default:
+                yield "Lu Ga di ajak";
+        };
+        System.out.println(hasil);
     }
 }
