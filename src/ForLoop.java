@@ -17,6 +17,28 @@ public class ForLoop {
      * Kondisi selalu ber nilai true
      * */
     public static void main(String[] args) {
+        // perulangan tanpa henti
+//        for (; ; ) {
+//            System.out.println("Ga abis");
+//        }
+
+//        perulangan dengan kondisi
+        var counter = 1;
+        for (; counter <= 10; ) {
+            System.out.println("Perulangan ke-" + counter);
+            counter++;
+        }
+
+//        Perulangan dengan Init Statement
+        for (var c = 1; c <= 10; ) {
+            System.out.println("Init ke-" + c);
+            c++;
+        }
+
+//        Perulangan dengan post statement
+        for (var p = 1; p <= 10; p++) {
+            System.out.println("Post ke-" + p);
+        }
 
     }
 }
