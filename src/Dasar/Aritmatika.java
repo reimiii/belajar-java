@@ -1,3 +1,5 @@
+package Dasar;
+
 public class Aritmatika {
     public static void main(String[] args) {
         // operasi aritmatika

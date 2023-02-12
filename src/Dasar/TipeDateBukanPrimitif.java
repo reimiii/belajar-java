@@ -1,3 +1,5 @@
+package Dasar;
+
 public class TipeDateBukanPrimitif {
     public static void main(String[] args) {
         // kode tipe data bukan primitif

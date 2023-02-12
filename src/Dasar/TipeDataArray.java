@@ -1,3 +1,5 @@
+package Dasar;
+
 public class TipeDataArray {
     public static void main(String[] args) {
         // membuat array

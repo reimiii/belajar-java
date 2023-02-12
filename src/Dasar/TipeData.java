@@ -1,3 +1,5 @@
+package Dasar;
+
 public class TipeData {
     public static void main(String[] args) {
 

@@ -1,3 +1,5 @@
+package Dasar;
+
 public class ForLoop {
     /*
      * For adalah salah satu kata kunci yang bisa digunakan untuk melakukan perulangan

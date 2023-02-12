@@ -1,3 +1,5 @@
+package Dasar;
+
 public class TernaryOperator {
 
     /*

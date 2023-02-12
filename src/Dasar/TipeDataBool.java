@@ -1,3 +1,5 @@
+package Dasar;
+
 public class TipeDataBool {
     public static void main(String[] args) {
         boolean benar = true;
