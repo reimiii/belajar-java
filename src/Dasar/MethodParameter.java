@@ -14,6 +14,7 @@ public class MethodParameter {
         theQandA("Kamu Cantik??", "Ga tau, kamu bisa nilai sendiri :)");
     }
 
+    // method parameter
     static void theQandA(String question, String answer) {
         System.out.println("Q: " + question);
         System.out.println("A: " + answer);
