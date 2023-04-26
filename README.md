@@ -1,4 +1,4 @@
-# java-basic
+# java-basic / done
 Java PZN, wish me luck
 
 next java object oriented
